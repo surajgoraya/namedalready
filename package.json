@@ -1,0 +1,21 @@
+{
+  "name": "namedalready",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/surajgoraya/namedalready"
+  },
+  "version": "1.0.0",
+  "description": "A Artist name search utility, used for finding if a artist name is already being used.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config index.js",
+  },
+  "author": "suraj goraya",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "got": "^11.8.1",
+    "terminal-image": "^1.2.1"
+  }
+}
