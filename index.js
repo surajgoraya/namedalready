@@ -4,7 +4,7 @@
  * @description A Artist name search utility, used for finding if a artist name is already being used.
  * 
  * @version 1.0.0
- * @copyright 2021 Suraj Goraya
+ * @copyright 2021
  */
 
 require('dotenv').config();
@@ -36,8 +36,7 @@ rl.question("Enter desired artist name? ", function (name) {
 });
 
 /**
- * @description This function will return an image from the spotify api to display in the terminal.
- * @requires process.env.SHOWIMG To be 'true'
+ * @description This function will return an image from the spotify api to display in the terminal. NOTE: process.env.SHOWIMG To be 'true'
  * @param {Array} images - Array of images from the Spotify API 
  */
 async function getImage(images) {
